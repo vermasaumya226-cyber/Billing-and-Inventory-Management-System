@@ -74,11 +74,3 @@ private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
 
 Run BillingUI.java directly in IntelliJ IDEA or your preferred IDE.
 
-### **Final Checklist Before Submission:**
-
-```sql
-
-1. **GitHub Repository:** Push your Java code along with `README.md` and `statement.md` to GitHub[cite: 1].
-2. **Project Report PDF:** PDF report me screenshots attach karke PDF export kar lijiye[cite: 1].
-3. **Portal Submission:** GitHub Repo link aur Project Report PDF dono portal par upload kar dein[cite: 1]!
-```
