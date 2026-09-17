@@ -51,7 +51,7 @@ CREATE TABLE products (
     price DOUBLE NOT NULL,
     quantity INT NOT NULL
 );
-
+```
 CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(100) NOT NULL,
