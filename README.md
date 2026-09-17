@@ -1,5 +1,6 @@
 # Billing-and-Inventory-Management-System
 
+## Overview
 A full-stack desktop application built with **Java (Swing GUI)**, **JDBC**, and **MySQL Database** for retail electronics store inventory management and customer billing.
 
 ##  Features
@@ -10,7 +11,7 @@ A full-stack desktop application built with **Java (Swing GUI)**, **JDBC**, and 
 - **Receipt Generation:** Generates clean, itemized receipt text views for fast customer checkout.
 - **Order History & Deletion:** View all past customer orders and selectively delete records from MySQL.
 
-##  Tech Stack & Tools
+##  Technologies & Tools used
 
 - **Language:** Java (JDK 8 or higher)
 - **GUI Framework:** Java Swing (AWT/Swing)
@@ -19,22 +20,23 @@ A full-stack desktop application built with **Java (Swing GUI)**, **JDBC**, and 
 - **IDE:** IntelliJ IDEA / Eclipse
 
 ##  Project Structure
+
+```text
 BillingInventorySystem/
-│
 ├── src/
 │   ├── database/
 │   │   └── DBConnection.java
-│   ├── model/
-│   │   ├── Product.java
-│   │   └── Order.java
 │   ├── dao/
 │   │   ├── ProductDAO.java
 │   │   └── OrderDAO.java
+│   ├── model/
+│   │   ├── Product.java
+│   │   └── Order.java
 │   ├── BillingUI.java
 │   └── Main.java
-│
 ├── README.md
 └── statement.md
+```
 
 ##  Setup and Installation
 
