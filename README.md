@@ -51,7 +51,7 @@ CREATE TABLE products (
     price DOUBLE NOT NULL,
     quantity INT NOT NULL
 );
-```
+
 CREATE TABLE orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(100) NOT NULL,
@@ -59,20 +59,24 @@ CREATE TABLE orders (
     total_amount DOUBLE NOT NULL,
     order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
 2. DBConnection Configuration
 Update your database password in src/database/DBConnection.java:
 
-Java
+```sql
 private static final String URL = "jdbc:mysql://localhost:3306/billing_inventory_db";
 private static final String USER = "root";
 private static final String PASSWORD = "YOUR_MYSQL_PASSWORD";
+```
 
 3. Run Application
 Run BillingUI.java directly in IntelliJ IDEA or your preferred IDE.
 
+```sql
 ### **Final Checklist Before Submission:**
 
 1. **GitHub Repository:** Push your Java code along with `README.md` and `statement.md` to GitHub[cite: 1].
 2. **Project Report PDF:** PDF report me screenshots attach karke PDF export kar lijiye[cite: 1].
-3. **Portal Submission:** GitHub Repo link aur Project Report PDF dono portal par upload k
+3. **Portal Submission:** GitHub Repo link aur Project Report PDF dono portal par upload kar dein[cite: 1]!
+```
