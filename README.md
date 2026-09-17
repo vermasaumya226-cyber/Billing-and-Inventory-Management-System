@@ -1,4 +1,5 @@
 # Billing-and-Inventory-Management-System
+
 # Electronics Billing & Inventory System
 
 A full-stack desktop application built with **Java (Swing GUI)**, **JDBC**, and **MySQL Database** for retail electronics store inventory management and customer billing.
